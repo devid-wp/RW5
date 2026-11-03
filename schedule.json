@@ -1,0 +1,16 @@
+{
+  "mode": "REAL",
+  "timezone": "Europe/Kyiv",
+  "week_starts_on": "monday",
+  "bells": [["09:00","09:45"], ["09:55","10:40"], ["11:00","11:45"], ["12:00","12:45"], ["13:05","13:50"], ["14:00","14:45"], ["14:55","15:40"], ["15:50","16:35"]],
+  "rotation": {"anchor": "2026-11-05", "day": "thursday", "period": 4, "subjects": ["World Literature", "Algebra"]},
+  "days": {
+    "monday": ["Biology","History","Physics","Ukrainian","Algebra","Geometry","English"],
+    "tuesday": ["PE","English","Algebra","Chemistry","Physics","Computer Science","World Literature"],
+    "wednesday": ["Biology","Ukrainian Literature","Ukrainian","Geometry","Geography","English","Technology","Law"],
+    "thursday": ["Chemistry","History","Physics","World Literature","PE","English","Learning Together"],
+    "friday": ["Ukrainian","Ukrainian Literature","PE","Algebra","History","English","Geography"],
+    "saturday": [],
+    "sunday": []
+  }
+}

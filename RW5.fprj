@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<FaceProject DeviceType="465">
+    <Screen Title="" Bitmap="">
+        <Widget Shape="32" Name="NumberDisplay" X="179" Y="167" Width="54" Height="126" Alpha="255" Digits="1" Alignment="0" Spacing="0" Blanking="0" Visible_Src="0" Value_Src="811" BitmapList="" />
+    </Screen>
+</FaceProject>

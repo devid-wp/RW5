@@ -1,0 +1,3 @@
+android-companion/gradlew text eol=lf
+android-companion/gradlew.bat text eol=crlf
+*.fprj -text

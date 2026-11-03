@@ -1,0 +1,9 @@
+# EasyFace opening diagnostics
+
+The user reproduced the error with eight projects, including the editor-created empty baseline. That baseline has no image or widget dependencies. Its SHA-256 and the saved widget sample's SHA-256 match the recorded originals. D: reports Fixed, and the project files are readable from this session. GUI process access was denied and no EasyFace crash entry was found in Application events 1000, 1001 and 1026 over the last seven days.
+
+Three distinct editor binaries are present under Downloads. The Gen2 bundle and English 1.0.4 use EasyFace_en.exe. Russian 1.0.2 uses EasyFace.exe. All three executables report file version 0.9.0, so that number alone cannot identify the package. Only EasyFace_Gen2_CompilerV423/DeviceInfo.db contains device 465 at 432×514. Both standalone packages have a database but lack that device. The Gen2 bundle includes Compiler.exe 4.23.0.0, DeviceInfo.db, setting.xml and ADB files. The exact executable and database used in the failing GUI session remain unverified.
+
+Backups of the baseline XML, widget sample and current build files are in diagnostics/baseline. Generator and originals were untouched.
+
+Close the existing GUI and launch EasyFace_Gen2_CompilerV423/EasyFace_en.exe directly from its own folder, with that folder as working directory. Keep package files together. Try opening RW5.original.fprj and then output/SchoolFace.fprj. If the blank baseline fails, create a fresh Redmi Watch 5 project in that editor, save it in a short ASCII folder on C:, close the editor, reopen the same executable and reopen the fresh project. If model 465 is absent, record the executable path and stop there. If the fresh file opens on C: but not after copying to D:, compare those identical bytes and investigate folder access. If it fails on C: as well, investigate editor startup and file access before changing project XML.

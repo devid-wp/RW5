@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<FaceProject DeviceType="465">
+    <Screen Title="SchoolFace" Bitmap="background.png">
+        <Widget Shape="30" Name="Background" X="0" Y="0" Width="432" Height="514" Alpha="255" Visible_Src="0" Bitmap="background.png" />
+        <Widget Shape="31" Name="Weekday" X="40" Y="28" Width="86" Height="34" Alpha="255" Visible_Src="0" Index_Src="2012" DefaultIndex="0" BitmapList="(0):week_0.png|(1):week_1.png|(2):week_2.png|(3):week_3.png|(4):week_4.png|(5):week_5.png|(6):week_6.png" />
+        <Widget Shape="32" Name="Day" X="170" Y="31" Width="36" Height="28" Alpha="255" Digits="2" Alignment="0" Spacing="0" Blanking="0" Visible_Src="0" Value_Src="1812" BitmapList="small_0.png|small_1.png|small_2.png|small_3.png|small_4.png|small_5.png|small_6.png|small_7.png|small_8.png|small_9.png|" />
+        <Widget Shape="31" Name="Month" X="208" Y="28" Width="66" Height="34" Alpha="255" Visible_Src="0" Index_Src="1012" DefaultIndex="1" BitmapList="(1):month_1.png|(2):month_2.png|(3):month_3.png|(4):month_4.png|(5):month_5.png|(6):month_6.png|(7):month_7.png|(8):month_8.png|(9):month_9.png|(10):month_10.png|(11):month_11.png|(12):month_12.png" />
+        <Widget Shape="32" Name="Hour" X="75" Y="79" Width="132" Height="84" Alpha="255" Digits="2" Alignment="0" Spacing="0" Blanking="0" Visible_Src="0" Value_Src="811" BitmapList="time_0.png|time_1.png|time_2.png|time_3.png|time_4.png|time_5.png|time_6.png|time_7.png|time_8.png|time_9.png|" />
+        <Widget Shape="30" Name="TimeColon" X="207" Y="79" Width="18" Height="84" Alpha="255" Visible_Src="0" Bitmap="colon.png" />
+        <Widget Shape="32" Name="Minute" X="225" Y="79" Width="132" Height="84" Alpha="255" Digits="2" Alignment="0" Spacing="0" Blanking="0" Visible_Src="0" Value_Src="1011" BitmapList="time_0.png|time_1.png|time_2.png|time_3.png|time_4.png|time_5.png|time_6.png|time_7.png|time_8.png|time_9.png|" />
+        <Widget Shape="32" Name="Steps" X="43" Y="411" Width="90" Height="28" Alpha="255" Digits="5" Alignment="1" Spacing="0" Blanking="1" Visible_Src="0" Value_Src="821" BitmapList="small_0.png|small_1.png|small_2.png|small_3.png|small_4.png|small_5.png|small_6.png|small_7.png|small_8.png|small_9.png|" />
+        <Widget Shape="32" Name="Battery" X="193" Y="411" Width="54" Height="28" Alpha="255" Digits="3" Alignment="2" Spacing="0" Blanking="1" Visible_Src="0" Value_Src="841" BitmapList="small_0.png|small_1.png|small_2.png|small_3.png|small_4.png|small_5.png|small_6.png|small_7.png|small_8.png|small_9.png|" />
+        <Widget Shape="32" Name="BPM" X="327" Y="411" Width="54" Height="28" Alpha="255" Digits="3" Alignment="1" Spacing="0" Blanking="1" Visible_Src="0" Value_Src="822" BitmapList="small_0.png|small_1.png|small_2.png|small_3.png|small_4.png|small_5.png|small_6.png|small_7.png|small_8.png|small_9.png|" />
+    </Screen>
+</FaceProject>
